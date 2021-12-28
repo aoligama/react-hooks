@@ -8,7 +8,7 @@ const StateComponent = () => {
             onClick={() => setIsGreen(!isGreen)}
             style={{ color: isGreen ? 'limegreen' : 'crimson' }}
         >
-            useState Example
+            useState Example (click me to see it :D)
         </h1>
     )
 }
