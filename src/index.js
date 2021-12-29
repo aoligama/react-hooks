@@ -4,6 +4,7 @@ import StateComponent from './components/State'
 import EffectComponent from './components/Effect'
 import ContextComponent from './components/Context'
 import RefComponent from './components/Ref'
+import ReducerComponent from './components/Reducer'
 
 import './styles/styles.css'
 
@@ -17,6 +18,8 @@ const App = () => {
         <ContextComponent />
         <hr />
         <RefComponent />
+        <hr />
+        <ReducerComponent />
         <hr />
     </div>
   )
