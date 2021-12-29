@@ -7,6 +7,7 @@ import RefComponent from './components/Ref'
 import ReducerComponent from './components/Reducer'
 import MemoComponent from './components/Memo'
 import CallbackComponent from './components/Callback'
+import LayoutEffectComponent from './components/LayoutEffect'
 
 import './styles/styles.css'
 
@@ -26,6 +27,8 @@ const App = () => {
         <MemoComponent />
         <hr />
         <CallbackComponent />
+        <hr />
+        <LayoutEffectComponent />
         <hr />
     </div>
   )
