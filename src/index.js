@@ -9,6 +9,7 @@ import MemoComponent from './components/Memo'
 import CallbackComponent from './components/Callback'
 import LayoutEffectComponent from './components/LayoutEffect'
 import ImperativeHandleComponent from './components/ImperativeHandle'
+import DebugValueComponent from './components/DebugValue'
 
 import './styles/styles.css'
 
@@ -32,6 +33,8 @@ const App = () => {
         <LayoutEffectComponent />
         <hr />
         <ImperativeHandleComponent />
+        <hr />
+        <DebugValueComponent />
         <hr />
     </div>
   )
