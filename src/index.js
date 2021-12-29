@@ -6,6 +6,7 @@ import ContextComponent from './components/Context'
 import RefComponent from './components/Ref'
 import ReducerComponent from './components/Reducer'
 import MemoComponent from './components/Memo'
+import CallbackComponent from './components/Callback'
 
 import './styles/styles.css'
 
@@ -23,6 +24,8 @@ const App = () => {
         <ReducerComponent />
         <hr />
         <MemoComponent />
+        <hr />
+        <CallbackComponent />
         <hr />
     </div>
   )
