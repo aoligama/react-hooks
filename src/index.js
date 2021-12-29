@@ -5,6 +5,7 @@ import EffectComponent from './components/Effect'
 import ContextComponent from './components/Context'
 import RefComponent from './components/Ref'
 import ReducerComponent from './components/Reducer'
+import MemoComponent from './components/Memo'
 
 import './styles/styles.css'
 
@@ -20,6 +21,8 @@ const App = () => {
         <RefComponent />
         <hr />
         <ReducerComponent />
+        <hr />
+        <MemoComponent />
         <hr />
     </div>
   )
